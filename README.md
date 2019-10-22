@@ -1,16 +1,20 @@
 # CamundaCommunity
 
-Java
+１．Java
     Oracle JDK 10.0.2    
 
-Eclipse
+２．Eclipse
     Version: 2019-09 R (4.13.0)
     Build id: 20190917-1200
 
-Eclipse Plugin from Marketplace
+３．Eclipse Plugin from Marketplace
     Spring Tools 4 - for Spring Boot(aka Spring Tool Suite 4) 4.4.0 RELEASE
     Buildship Gradle Integration 3.0
 
+４．To start Camunda Server on eclipse
+     4-1. Right-click on the top-level of the gradle project.
+     4-2. Select context menu "Run As" -> "Run Configurations...".
+     4-3. Execute ”bootRun” Task by Gradle Task Configuration.
 
 build.gradle:
 <pre>
@@ -57,3 +61,4 @@ dependencies {
     }
 }
 </pre>
+
