@@ -13,7 +13,7 @@ Eclipse Plugin from Marketplace
 
 
 build.gradle:
-
+<pre>
 buildscript {
     ext {
         camundaVersion = '7.7.0'
@@ -56,4 +56,4 @@ dependencies {
         runtime('javax.xml.bind:jaxb-api:2.3.0')
     }
 }
-
+</pre>
